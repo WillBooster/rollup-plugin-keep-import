@@ -1,5 +1,5 @@
 // c.f. https://rollup.docschina.org/guide/en/#renderdynamicimport
-function keepImport(moduleNames) {
+function keepImport({ moduleNames }) {
   return {
     name: 'keep-import',
     resolveDynamicImport(specifier) {
