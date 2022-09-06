@@ -25,14 +25,19 @@
     "prettify": "prettier --color --write \"**/{.*/,}*.{cjs,css,htm,html,js,json,json5,jsx,md,mjs,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\""
   },
   "prettier": "@willbooster/prettier-config",
+  "resolutions": {
+    "npm/chalk": "^4.1.2"
+  },
   "devDependencies": {
     "@willbooster/prettier-config": "9.1.0",
     "@willbooster/renovate-config": "9.4.0",
+    "conventional-changelog-conventionalcommits": "5.0.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
     "pinst": "3.0.0",
     "prettier": "2.7.1",
     "rollup": "2.79.0",
+    "semantic-release": "19.0.5",
     "sort-package-json": "1.57.0"
   },
   "packageManager": "yarn@4.0.0-rc.18",
