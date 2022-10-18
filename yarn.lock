@@ -3958,15 +3958,15 @@ __metadata:
     lint-staged: "npm:13.0.3"
     pinst: "npm:3.0.0"
     prettier: "npm:2.7.1"
-    rollup: "npm:2.79.1"
+    rollup: "npm:3.2.3"
     semantic-release: "npm:19.0.5"
     sort-package-json: "npm:1.57.0"
   languageName: unknown
   linkType: soft
 
-"rollup@npm:2.79.1":
-  version: 2.79.1
-  resolution: "rollup@npm:2.79.1"
+"rollup@npm:3.2.3":
+  version: 3.2.3
+  resolution: "rollup@npm:3.2.3"
   dependencies:
     fsevents: "npm:~2.3.2"
   dependenciesMeta:
@@ -3974,7 +3974,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: b91c27c3b5234af864f282ffa2c13891d9caf25cad8ba7ad11f5201bdb6516f10c90a8c3402a5f72eafc74a555b1c685b6b04d107a6d6866195812a82f4aa308
+  checksum: 490a804886cfc434a25c8ce6a5ec338f7e345a985325fdf8aba2d39a33a059ef6200b0c5076ac4f9ae6fc984cee6c8ca7687d753c9f84819a256e8ea123780d3
   languageName: node
   linkType: hard
 
