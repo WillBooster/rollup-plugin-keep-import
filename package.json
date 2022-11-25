@@ -33,14 +33,14 @@
     "@willbooster/renovate-config": "9.4.2",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "husky": "8.0.2",
-    "lint-staged": "13.0.3",
+    "lint-staged": "13.0.4",
     "pinst": "3.0.0",
-    "prettier": "2.7.1",
-    "rollup": "3.3.0",
+    "prettier": "2.8.0",
+    "rollup": "3.4.0",
     "semantic-release": "19.0.5",
     "sort-package-json": "2.1.0"
   },
-  "packageManager": "yarn@4.0.0-rc.30",
+  "packageManager": "yarn@4.0.0-rc.31",
   "publishConfig": {
     "access": "public"
   }
