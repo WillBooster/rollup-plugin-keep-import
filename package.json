@@ -36,11 +36,11 @@
     "lint-staged": "13.1.0",
     "pinst": "3.0.0",
     "prettier": "2.8.1",
-    "rollup": "3.7.1",
+    "rollup": "3.7.4",
     "semantic-release": "19.0.5",
     "sort-package-json": "2.1.0"
   },
-  "packageManager": "yarn@4.0.0-rc.32",
+  "packageManager": "yarn@4.0.0-rc.33",
   "publishConfig": {
     "access": "public"
   }
