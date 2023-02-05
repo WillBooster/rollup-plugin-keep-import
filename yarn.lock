@@ -2949,11 +2949,9 @@ __metadata:
   linkType: hard
 
 "minipass@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "minipass@npm:4.0.0"
-  dependencies:
-    yallist: "npm:^4.0.0"
-  checksum: 9f5879b588df2ba47dc5def5520b14dabd6acd1c9a3d115f482baba47177a004718b01da4fd5b15dba036f435646d8cb9489ba84fca3808acdd72a9cc1d3c7ca
+  version: 4.0.1
+  resolution: "minipass@npm:4.0.1"
+  checksum: 47cdef2b0853451b5adbd2db83121f4bfd134d02c0f16274b22a6f34dae03759e6e1da8743540962e7ec361beffcce29d149f29428373a0bfa72505bf706dc97
   languageName: node
   linkType: hard
 
@@ -3046,8 +3044,8 @@ __metadata:
   linkType: hard
 
 "node-fetch@npm:^2.6.7":
-  version: 2.6.8
-  resolution: "node-fetch@npm:2.6.8"
+  version: 2.6.9
+  resolution: "node-fetch@npm:2.6.9"
   dependencies:
     whatwg-url: "npm:^5.0.0"
   peerDependencies:
@@ -3055,7 +3053,7 @@ __metadata:
   peerDependenciesMeta:
     encoding:
       optional: true
-  checksum: 9b8bac9f953253468a76adf139ad52514ee03ee35d610c6472201415f2913d9437e8f5e15ca2bb9aaf8dae054a55aeff8cec37a6ca5317c223ab6ea9a9a16b6b
+  checksum: 8457cf62f599e9d55b01d58f87ed2110c65f83c4fcce8be0e350909995384e96a55e2b810d0e1a67a1fbe7f9930cd0998146d2dcce4843f9ed3ac0b479bd5c64
   languageName: node
   linkType: hard
 
