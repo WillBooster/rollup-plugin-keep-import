@@ -33,7 +33,7 @@
     "@willbooster/renovate-config": "9.5.0",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "husky": "8.0.3",
-    "lint-staged": "13.1.1",
+    "lint-staged": "13.1.2",
     "pinst": "3.0.0",
     "prettier": "2.8.4",
     "rollup": "3.15.0",
