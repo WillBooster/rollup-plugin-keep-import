@@ -4115,15 +4115,15 @@ __metadata:
     lint-staged: "npm:13.2.0"
     pinst: "npm:3.0.0"
     prettier: "npm:2.8.4"
-    rollup: "npm:3.17.2"
-    semantic-release: "npm:20.1.0"
+    rollup: "npm:3.19.1"
+    semantic-release: "npm:20.1.1"
     sort-package-json: "npm:2.4.1"
   languageName: unknown
   linkType: soft
 
-"rollup@npm:3.17.2":
-  version: 3.17.2
-  resolution: "rollup@npm:3.17.2"
+"rollup@npm:3.19.1":
+  version: 3.19.1
+  resolution: "rollup@npm:3.19.1"
   dependencies:
     fsevents: "npm:~2.3.2"
   dependenciesMeta:
@@ -4131,7 +4131,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: a9f32c51a8f13e003742552556d160646abc071bb1fac7f6f5448af8eeb0329df45d58d0d9473a7c76b48756df3d34be4223b1d329c614f46b8c1c815d36a519
+  checksum: b99434f7e24be4a03b30d0be375c93d05c32ae352fe1d95d09b94548977e12571788c86af2e0bec31de263aeeb994559556af587342fe4a9823e277d1246ad0d
   languageName: node
   linkType: hard
 
@@ -4174,9 +4174,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:20.1.0":
-  version: 20.1.0
-  resolution: "semantic-release@npm:20.1.0"
+"semantic-release@npm:20.1.1":
+  version: 20.1.1
+  resolution: "semantic-release@npm:20.1.1"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^9.0.2"
     "@semantic-release/error": "npm:^3.0.0"
@@ -4187,7 +4187,7 @@ __metadata:
     cosmiconfig: "npm:^8.0.0"
     debug: "npm:^4.0.0"
     env-ci: "npm:^8.0.0"
-    execa: "npm:^6.1.0"
+    execa: "npm:^7.0.0"
     figures: "npm:^5.0.0"
     find-versions: "npm:^5.1.0"
     get-stream: "npm:^6.0.0"
@@ -4208,7 +4208,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 65c57562d62439edbea60c03ed406f34f4698cdf19bf2fb5a689e0ee8b525e2638132d8b352549a8f78587d0db1d0d4be82c5843da6bc6273e6a0052f5e51b90
+  checksum: e2c419a87a2db44c1ca22c778422bed52a41d850de0fe0fea55d9893fd7b7f2684599fc4c9ede5d3539e2d6a275a24f62e50cb5a8f5c475a9afed49b8caeebf5
   languageName: node
   linkType: hard
 
