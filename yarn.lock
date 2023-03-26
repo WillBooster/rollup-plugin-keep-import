@@ -1683,13 +1683,13 @@ __metadata:
   linkType: hard
 
 "fs-extra@npm:^11.0.0":
-  version: 11.1.0
-  resolution: "fs-extra@npm:11.1.0"
+  version: 11.1.1
+  resolution: "fs-extra@npm:11.1.1"
   dependencies:
     graceful-fs: "npm:^4.2.0"
     jsonfile: "npm:^6.0.1"
     universalify: "npm:^2.0.0"
-  checksum: 20d9909070e7d9754cb651af067ae4343b5fc9b05fa9b8765a9348dab7dfa9b78c0f1ebe791774f06d4cca4231f4be9889a916d0457e8e87097a613e6bdd1746
+  checksum: 9bc3e5ce6860e97abf1fb408f1d716253e1bb16da36203b2ee3f71160e5ec1e7a9d2b9bae4c99a50598a250be6db0e3b17e8031ea7c498c24513857f48db5402
   languageName: node
   linkType: hard
 
@@ -2800,11 +2800,11 @@ __metadata:
   linkType: hard
 
 "marked@npm:^4.1.0":
-  version: 4.2.12
-  resolution: "marked@npm:4.2.12"
+  version: 4.3.0
+  resolution: "marked@npm:4.3.0"
   bin:
     marked: bin/marked.js
-  checksum: 2dd223c4f78d723c583d3be8bb7d7d9d7f92f2e201279b65bd41136755730228f12c4140393f3989f71be448bf30218e8fcbddee071316461c275f9af555b053
+  checksum: 89bcab317027e68f7ecf3d19aa8e9933575399250a54e757bd3d922f183d76bb51051dbc7f73317259c99abc91982641ebbe68b731a08744742a807588137223
   languageName: node
   linkType: hard
 
