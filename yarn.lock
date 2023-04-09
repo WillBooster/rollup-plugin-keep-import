@@ -6,11 +6,11 @@ __metadata:
   cacheKey: 9
 
 "@babel/code-frame@npm:^7.0.0":
-  version: 7.18.6
-  resolution: "@babel/code-frame@npm:7.18.6"
+  version: 7.21.4
+  resolution: "@babel/code-frame@npm:7.21.4"
   dependencies:
     "@babel/highlight": "npm:^7.18.6"
-  checksum: eb27d165ea1c7c23e71a2a6f64225fe0ca0b2a39f5c0b57fda2a62dfa845799ca94886b08014f8fd4a711538cc6b1c89b9fc1dca6a5148893932bc03412ca848
+  checksum: 277dd26ebd69a94fc065b51e8cd391712a0738f8a4d0ccff038bc0b31354f9eccb83efba3ffe37e6d5eb881bd4b8d7a7932649ea69c2d36fbbc4a3cbf5f4e9e7
   languageName: node
   linkType: hard
 
@@ -419,10 +419,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/config.env-replace@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@pnpm/config.env-replace@npm:1.0.0"
-  checksum: 8b9169fb40dc52dd1917d3afff0e7dc5333d441421e5b8cd3138be0bcf3388b3069ded66d951caf506bdec510d682e5641592bc0b638de8aa92d7297ad1e329f
+"@pnpm/config.env-replace@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@pnpm/config.env-replace@npm:1.1.0"
+  checksum: cdfd011ca66d0696d9e4ab2d220dc2de073d4011c01a331ce118fe8d700e71f75bec4171e29cb24fddb2f40d43056375c55aeccf8c1001cb370c2097817c31ab
   languageName: node
   linkType: hard
 
@@ -436,13 +436,13 @@ __metadata:
   linkType: hard
 
 "@pnpm/npm-conf@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "@pnpm/npm-conf@npm:2.1.0"
+  version: 2.1.1
+  resolution: "@pnpm/npm-conf@npm:2.1.1"
   dependencies:
-    "@pnpm/config.env-replace": "npm:^1.0.0"
+    "@pnpm/config.env-replace": "npm:^1.1.0"
     "@pnpm/network.ca-file": "npm:^1.0.1"
     config-chain: "npm:^1.1.11"
-  checksum: ea162d377c63d961f2be1a372c06561d7d7731f18722563fc2691ca01fb199dfc71f2d546bb5e4ce0dfeb4345fe8c2585ef36fc0a9b5e2d4a27b9b92db5d003a
+  checksum: b5b3c43ea48581ce16dbdaa95c997aedba0f65492d4f4b502c4ac0f1cfc3d59efd7742ec6be1aa2bb3276043bfcdefc97bc6d5c6f7ca7a8bec18bbe02ff43368
   languageName: node
   linkType: hard
 
@@ -2182,7 +2182,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.5.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
+"is-core-module@npm:^2.11.0, is-core-module@npm:^2.5.0, is-core-module@npm:^2.8.1":
   version: 2.11.0
   resolution: "is-core-module@npm:2.11.0"
   dependencies:
@@ -3790,9 +3790,9 @@ __metadata:
   linkType: hard
 
 "promise-call-limit@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "promise-call-limit@npm:1.0.1"
-  checksum: 8cfcad082cbfcd13e4ad1e23cfa9032b3fbcfd02a5060ea939857b462b2f0c39b2140fcc44da2b354a9cd68dfbaecc6b17fc2bc1303e3ec8f064dfd2b64597de
+  version: 1.0.2
+  resolution: "promise-call-limit@npm:1.0.2"
+  checksum: ea473cc7124448044ad54169f1c5e0165bdc1bdcd366eb198911834a896432b6495624a365988877b444ae481d03a88c17b96832d33d341e3eae6cefd2b01007
   languageName: node
   linkType: hard
 
@@ -4045,28 +4045,28 @@ __metadata:
   linkType: hard
 
 "resolve@npm:^1.10.0":
-  version: 1.22.1
-  resolution: "resolve@npm:1.22.1"
+  version: 1.22.2
+  resolution: "resolve@npm:1.22.2"
   dependencies:
-    is-core-module: "npm:^2.9.0"
+    is-core-module: "npm:^2.11.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: d8ea39ac2ecaedc681504f043944a20cc05587d6ec52d4d9ec79801e58be083f2237d0e83170ce86c793083eaf71a6f95a7f921a79dfb6fa32b37107e61df36c
+  checksum: fe7adbedd826521300326e5c3e55784c369e8d52a16f542c3735c553a98dd26ba7fc91bc859a3cbe80cb1c83e5fa2d93aa2c36bdbe1584fff8c7feebc765cd1e
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>":
-  version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#optional!builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  version: 1.22.2
+  resolution: "resolve@patch:resolve@npm%3A1.22.2#optional!builtin<compat/resolve>::version=1.22.2&hash=c3c19d"
   dependencies:
-    is-core-module: "npm:^2.9.0"
+    is-core-module: "npm:^2.11.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: a6f214b97d932445796f78dab7a898ec78966327e0d6cb571f90b6ac0f3b3347bf6bab0a071d899bfdc316b26ed845f6655310b38b8f6ee4da5272a0c5ecef85
+  checksum: 58838d3b80cac9bc3386d09c058e91c6169659ba8d42a01698e149bd27a7e3c1557c46e1d0e2bde1b426731ee46bf17d3a8e750c2ae78c093129891b39886c20
   languageName: node
   linkType: hard
 
