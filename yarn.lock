@@ -334,10 +334,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/openapi-types@npm:^17.0.0":
-  version: 17.0.0
-  resolution: "@octokit/openapi-types@npm:17.0.0"
-  checksum: 374199373a63398e39776b4b74193e1c5b2d394d973ba143c93d2cf2691c19d1275fa7a9f62347a6b22a1a6e5b6980954c1c60778eafc1a3b585fcc768412b34
+"@octokit/openapi-types@npm:^17.1.0":
+  version: 17.1.0
+  resolution: "@octokit/openapi-types@npm:17.1.0"
+  checksum: 80e8bbeb6c33bd49cc3fac83c6008bd9771a47eba6be6a0a76d503d6a7a56f04ecbf4480450f64142d51a281c1b9552f1ddcb5ae31cfdbcb87eb02f1357f2c20
   languageName: node
   linkType: hard
 
@@ -411,11 +411,11 @@ __metadata:
   linkType: hard
 
 "@octokit/types@npm:^9.0.0":
-  version: 9.1.2
-  resolution: "@octokit/types@npm:9.1.2"
+  version: 9.2.0
+  resolution: "@octokit/types@npm:9.2.0"
   dependencies:
-    "@octokit/openapi-types": "npm:^17.0.0"
-  checksum: 980e8765c7d7cba871930ff02b58c53fe3dbc6ae45a74e9b2cd4cb6f4cbf7aba08a02bdc308d7779e2d298ba23ca67eb29b9d6ede148c2c4393a2edb715a47fe
+    "@octokit/openapi-types": "npm:^17.1.0"
+  checksum: fd2bd3171717202c958c1553dd88af3343b81c8d77fe6a1b8157b72aff03c5f3061f2cbd93a2eaffe6396fcdc97ca7f72786466856e02a60e262d4ad3fbe1c3a
   languageName: node
   linkType: hard
 
@@ -3750,12 +3750,12 @@ __metadata:
   linkType: hard
 
 "postcss-selector-parser@npm:^6.0.10":
-  version: 6.0.11
-  resolution: "postcss-selector-parser@npm:6.0.11"
+  version: 6.0.12
+  resolution: "postcss-selector-parser@npm:6.0.12"
   dependencies:
     cssesc: "npm:^3.0.0"
     util-deprecate: "npm:^1.0.2"
-  checksum: 7bee200415c2a0b35e41add91cded19209d746be9b2ab7c7b877cbac4358cda4e5dd19d3559544abfc7d87ff8824dcb5619657ac326973f323d0bda2cee0f1a8
+  checksum: c445891b543b0d1d1d8c5e1ac54a59e1ea7f8f59f4565bd3b296c52018607415960446b065412f59461234cd6722bc6bbe478dce35dc8f7b2958610abdd3ba07
   languageName: node
   linkType: hard
 
@@ -4160,11 +4160,11 @@ __metadata:
   linkType: hard
 
 "rxjs@npm:^7.8.0":
-  version: 7.8.0
-  resolution: "rxjs@npm:7.8.0"
+  version: 7.8.1
+  resolution: "rxjs@npm:7.8.1"
   dependencies:
     tslib: "npm:^2.1.0"
-  checksum: 56dfebbd1f868935809688075a33d940954a66ddec9ea3b92cc7031e50fc4040e9962416d5ca009b9da9e1edda6ff4f1fc3155786e7e521ec6eb3100e30f0317
+  checksum: d7daafba4296c4360b19bdff02d24e2f8acc7731605b0d99a0c920373d0af995bcb6b3c58c211e02db50aabddd9e854250a195f87ed193b56e79f245494774f5
   languageName: node
   linkType: hard
 
@@ -5040,8 +5040,8 @@ __metadata:
   linkType: hard
 
 "yargs@npm:^17.5.1":
-  version: 17.7.1
-  resolution: "yargs@npm:17.7.1"
+  version: 17.7.2
+  resolution: "yargs@npm:17.7.2"
   dependencies:
     cliui: "npm:^8.0.1"
     escalade: "npm:^3.1.1"
@@ -5050,7 +5050,7 @@ __metadata:
     string-width: "npm:^4.2.3"
     y18n: "npm:^5.0.5"
     yargs-parser: "npm:^21.1.1"
-  checksum: 03a4d8c1ad18a855f8ae5e91e3765316e01266394a939ec5e87ad4bcccf55f13c8317ae324801bd67bd45c455ad2cf71cc8733d42a5e74227f18801449c14d3b
+  checksum: 02578d19d9c9a21ed980903995a5a9b7d913e8dccefe182fadae1afee26c6903f912594524d13ea2950dbaad1024e9d255c380a150fbda957bd32e9d0d772eb0
   languageName: node
   linkType: hard
 
