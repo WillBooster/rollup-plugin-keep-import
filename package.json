@@ -7,7 +7,8 @@
   "type": "commonjs",
   "exports": {
     "require": "./rollup-plugin-keep-import.js",
-    "import": "./rollup-plugin-keep-import.mjs"
+    "import": "./rollup-plugin-keep-import.mjs",
+    "types": "./rollup-plugin-keep-import.d.ts"
   },
   "main": "rollup-plugin-keep-import.js",
   "types": "rollup-plugin-keep-import.d.ts",
