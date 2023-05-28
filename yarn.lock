@@ -364,24 +364,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/plugin-request-log@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "@octokit/plugin-request-log@npm:1.0.4"
+"@octokit/plugin-retry@npm:^4.1.3":
+  version: 4.1.3
+  resolution: "@octokit/plugin-retry@npm:4.1.3"
+  dependencies:
+    "@octokit/types": "npm:^9.0.0"
+    bottleneck: "npm:^2.15.3"
   peerDependencies:
     "@octokit/core": ">=3"
-  checksum: 862693e73694c31e9eb898b215da91657b8a73ab95291bea10447318b8fba4dd1c02225c4c67ee3fe903b5f62fc38f5f9cfb10debf8f94f599c7c62843d03656
+  checksum: 1c360498cc2d68fc106e57ea85689f339adb460afa25b516759d5aba6827e7e8b51041b854822e016a5435cde78ec8c24880779e9b54a1cf19065bf14a834ab6
   languageName: node
   linkType: hard
 
-"@octokit/plugin-rest-endpoint-methods@npm:^7.1.2":
-  version: 7.1.2
-  resolution: "@octokit/plugin-rest-endpoint-methods@npm:7.1.2"
+"@octokit/plugin-throttling@npm:^5.2.3":
+  version: 5.2.3
+  resolution: "@octokit/plugin-throttling@npm:5.2.3"
   dependencies:
-    "@octokit/types": "npm:^9.2.3"
-    deprecation: "npm:^2.3.1"
+    "@octokit/types": "npm:^9.0.0"
+    bottleneck: "npm:^2.15.3"
   peerDependencies:
-    "@octokit/core": ">=3"
-  checksum: 9c58ca45d7dde19f040dfbde6e0079513227376579b73431dfc4dd6eb75e5f422ffd41b7184c87ac5d049b9f2d413437251c910831cc08f100130d6d364c0e91
+    "@octokit/core": ^4.0.0
+  checksum: 80719955e917f2df25830ca024b841ecc0394ad08f3aadc8bd20667ff415bd5a204d3d254e3a886b5f3b0bf368c9ebceebf0461a0726d061662d7c83d73173a0
   languageName: node
   linkType: hard
 
@@ -407,18 +410,6 @@ __metadata:
     node-fetch: "npm:^2.6.7"
     universal-user-agent: "npm:^6.0.0"
   checksum: 0d1ba3c7e30debd47709a7cb491d79f95b03f066009dd1b05a6abb3d56c2886c1963d6d5dd39a2b8e48c1a0e7cf86fc2a9102c0d82ea57f7c4e8e92b02e6a1d8
-  languageName: node
-  linkType: hard
-
-"@octokit/rest@npm:^19.0.0":
-  version: 19.0.11
-  resolution: "@octokit/rest@npm:19.0.11"
-  dependencies:
-    "@octokit/core": "npm:^4.2.1"
-    "@octokit/plugin-paginate-rest": "npm:^6.1.2"
-    "@octokit/plugin-request-log": "npm:^1.0.4"
-    "@octokit/plugin-rest-endpoint-methods": "npm:^7.1.2"
-  checksum: f9a8d44d12fb361992ae174eaa921b157026933546c73d7739dcdd8b5215e86bd87591b0534f1fa69955bbe2f2955c23f27c4264f04dc8f865458b0858ccaf2c
   languageName: node
   linkType: hard
 
@@ -497,13 +488,15 @@ __metadata:
   linkType: hard
 
 "@semantic-release/github@npm:^8.0.0":
-  version: 8.0.7
-  resolution: "@semantic-release/github@npm:8.0.7"
+  version: 8.0.8
+  resolution: "@semantic-release/github@npm:8.0.8"
   dependencies:
-    "@octokit/rest": "npm:^19.0.0"
+    "@octokit/core": "npm:^4.2.1"
+    "@octokit/plugin-paginate-rest": "npm:^6.1.2"
+    "@octokit/plugin-retry": "npm:^4.1.3"
+    "@octokit/plugin-throttling": "npm:^5.2.3"
     "@semantic-release/error": "npm:^3.0.0"
     aggregate-error: "npm:^3.0.0"
-    bottleneck: "npm:^2.18.1"
     debug: "npm:^4.0.0"
     dir-glob: "npm:^3.0.0"
     fs-extra: "npm:^11.0.0"
@@ -514,11 +507,10 @@ __metadata:
     lodash: "npm:^4.17.4"
     mime: "npm:^3.0.0"
     p-filter: "npm:^2.0.0"
-    p-retry: "npm:^4.0.0"
     url-join: "npm:^4.0.0"
   peerDependencies:
     semantic-release: ">=18.0.0-beta.1"
-  checksum: 3fdef022dd9731c976baff3d6fd878ebf2f5e714bd1e5561008ac51d6e6c6448de7541b269a27c80e14adee0e10d7ca5b3b7b140b90c5c614e8fd0363c90511b
+  checksum: 5e4a9c1ab6154694636115520a59103e5df825168cd9ee9b4ab6bafd5a1392425152552ef2469a34b29aa782448c557c4b630c6dc4f9f1ebd80dbbf35c5d4607
   languageName: node
   linkType: hard
 
@@ -607,13 +599,6 @@ __metadata:
   version: 2.4.1
   resolution: "@types/normalize-package-data@npm:2.4.1"
   checksum: 4b597289520e45e54f408e91712f31fe7818e2c5d977eefecfae9db1f921a80247470d4f77da2dc8e1ef85bf0b5852ad64faf0106d88647421e45350d124f74f
-  languageName: node
-  linkType: hard
-
-"@types/retry@npm:0.12.0":
-  version: 0.12.0
-  resolution: "@types/retry@npm:0.12.0"
-  checksum: 7dfdcda62f14255b06e7ce3786607275c3a673ee62a72d41b518e7f3dc936b24e7bf9b442fe0528b9edddd8c36a72727ed6703d2aeb75d36c140d6b03ceb10d2
   languageName: node
   linkType: hard
 
@@ -888,7 +873,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bottleneck@npm:^2.18.1":
+"bottleneck@npm:^2.15.3":
   version: 2.19.5
   resolution: "bottleneck@npm:2.19.5"
   checksum: 084e33d97e28918f0f1eed1ef22bc9e178c335eda0b3383910930c98f8c04bf940848153fcbdfd21cb18954cceda28b5d14fcc160a5699652591ce3fa70d8b5a
@@ -1455,7 +1440,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deprecation@npm:^2.0.0, deprecation@npm:^2.3.1":
+"deprecation@npm:^2.0.0":
   version: 2.3.1
   resolution: "deprecation@npm:2.3.1"
   checksum: 4bea60628946a5525bfc9c550e9e2ce34e389128938618f0929b6bed856032a70f82e03231044ce14f7f974d65dddb31bbf0252dd70878d13fe7d83969bcc326
@@ -3680,16 +3665,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-retry@npm:^4.0.0":
-  version: 4.6.2
-  resolution: "p-retry@npm:4.6.2"
-  dependencies:
-    "@types/retry": "npm:0.12.0"
-    retry: "npm:^0.13.1"
-  checksum: da82d268a09a73994eddadee8ecc89c9f8910ada1d80a79a547869f12d66b6840eafdbd51b83a972f679cf79a239dc9a8394aef81dc540c3fe89feb1cbdc53c6
-  languageName: node
-  linkType: hard
-
 "p-try@npm:^1.0.0":
   version: 1.0.0
   resolution: "p-try@npm:1.0.0"
@@ -4252,13 +4227,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"retry@npm:^0.13.1":
-  version: 0.13.1
-  resolution: "retry@npm:0.13.1"
-  checksum: e26ac693801b9f84a369fe90800d844bbe7e4ae325b11496eef0fcb400d06a3f477e93701fc8ac99c110d893155f1e37fee6473b82e90c5ea5547076dac0af63
-  languageName: node
-  linkType: hard
-
 "reusify@npm:^1.0.4":
   version: 1.0.4
   resolution: "reusify@npm:1.0.4"
@@ -4755,11 +4723,11 @@ __metadata:
   linkType: hard
 
 "strip-ansi@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "strip-ansi@npm:7.0.1"
+  version: 7.1.0
+  resolution: "strip-ansi@npm:7.1.0"
   dependencies:
     ansi-regex: "npm:^6.0.1"
-  checksum: 552123468abae97929da64559af9c13f4518f8ea199038089bf5e49d7860d708e5e29b2e6401fcbab6f99f2c42f865c15a1976bcf51c5165f82152c7ce9a1043
+  checksum: 09f81cbad0ac6e3dbe1c425429135432e91b1a61b7799587cb38aa24fb661aa5a83eaaf579e241ac1a4cac39fee97501c15226099728e56759abc6846b51917a
   languageName: node
   linkType: hard
 
@@ -5256,9 +5224,9 @@ __metadata:
   linkType: hard
 
 "yaml@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "yaml@npm:2.2.2"
-  checksum: afa383e3cb2fcd195f99eab4942c08aaa6fbb87a2cced34a5bd0c850224d4b98684706a7564455aedf2dfce0accd7e45417d9f2942e01eba2cfb83f689b8ceff
+  version: 2.3.1
+  resolution: "yaml@npm:2.3.1"
+  checksum: f33e26b726061603f7a55870726cd5225a2868ea9accec41ff57f42e0398b1bdabf15b122ac724601fe41b978d5a46e7c3c43d3361f20f82047f054b2bf64621
   languageName: node
   linkType: hard
 
