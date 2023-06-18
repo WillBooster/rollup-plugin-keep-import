@@ -26,13 +26,10 @@
     "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\""
   },
   "prettier": "@willbooster/prettier-config",
-  "resolutions": {
-    "npm/chalk": "^4.1.2"
-  },
   "devDependencies": {
     "@willbooster/prettier-config": "9.1.1",
     "@willbooster/renovate-config": "9.5.0",
-    "conventional-changelog-conventionalcommits": "6.0.0",
+    "conventional-changelog-conventionalcommits": "6.1.0",
     "husky": "8.0.3",
     "lint-staged": "13.2.2",
     "pinst": "3.0.0",
