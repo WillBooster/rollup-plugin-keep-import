@@ -615,13 +615,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/renovate-config@npm:9.5.0":
-  version: 9.5.0
-  resolution: "@willbooster/renovate-config@npm:9.5.0"
-  checksum: 65a02680709a698579edaa4fa899b674d0a46b6c80ee73c6b9d68e0c19d1a76d1a23aa34b5e42736791b725bc94cb0a8e7a214ae9882d43f11124046fbcf0842
-  languageName: node
-  linkType: hard
-
 "JSONStream@npm:^1.3.5":
   version: 1.3.5
   resolution: "JSONStream@npm:1.3.5"
@@ -4168,7 +4161,6 @@ __metadata:
   resolution: "rollup-plugin-keep-import@workspace:."
   dependencies:
     "@willbooster/prettier-config": "npm:9.1.1"
-    "@willbooster/renovate-config": "npm:9.5.0"
     conventional-changelog-conventionalcommits: "npm:6.1.0"
     husky: "npm:8.0.3"
     lint-staged: "npm:13.2.3"
