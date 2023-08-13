@@ -6,11 +6,12 @@ __metadata:
   cacheKey: 10c0
 
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.21.4":
-  version: 7.22.5
-  resolution: "@babel/code-frame@npm:7.22.5"
+  version: 7.22.10
+  resolution: "@babel/code-frame@npm:7.22.10"
   dependencies:
-    "@babel/highlight": "npm:^7.22.5"
-  checksum: 0b6c5eaf9e58be7140ac790b7bdf8148e8a24e26502dcaa50f157259c083b0584285748fd90d342ae311a5bb1eaad7835aec625296d2b46853464f9bd8991e28
+    "@babel/highlight": "npm:^7.22.10"
+    chalk: "npm:^2.4.2"
+  checksum: fc5fe681eda128f15b928287b6c8e2ccec45776b8662524945cde005fba725642cc47ab0cfef4e7ff9ba5acccb3e907eebc2b3a7f075b8b31b19011229170b27
   languageName: node
   linkType: hard
 
@@ -21,14 +22,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/highlight@npm:^7.22.5":
-  version: 7.22.5
-  resolution: "@babel/highlight@npm:7.22.5"
+"@babel/highlight@npm:^7.22.10":
+  version: 7.22.10
+  resolution: "@babel/highlight@npm:7.22.10"
   dependencies:
     "@babel/helper-validator-identifier": "npm:^7.22.5"
-    chalk: "npm:^2.0.0"
+    chalk: "npm:^2.4.2"
     js-tokens: "npm:^4.0.0"
-  checksum: e8cc07b5de76a9bf779982096ccbbe5a867c36d3786b26151eb570d9344a68af8aa065ed97d431e0d18ba55fe792c7c4301e0d62afff7a52ee0d20678443be54
+  checksum: ac321ed90d37f76df74a44addc1692658eff64060375550bfb64919959573b14000ac83744e1ed30cc51b8b2f1291b0f0e98a3398d3c33c9c4548dd326a898fc
   languageName: node
   linkType: hard
 
@@ -523,12 +524,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sigstore/bundle@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@sigstore/bundle@npm:1.0.0"
+"@sigstore/bundle@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@sigstore/bundle@npm:1.1.0"
   dependencies:
     "@sigstore/protobuf-specs": "npm:^0.2.0"
-  checksum: 563ffbcb1bd3d1dc9bf609a5803e153d94405ddcacd145a3d65f5519c00b158ea8fdb2476f0fdf70b40f4c4eb0643b86deb6ff7a621b33b88b0fa9f7c4f94865
+  checksum: f29af2c59eefceb2c6fb88e6acb31efd7400a46968324ad60c19f054bcac3c16f6e2dfa5162feaeb57e3b1688dcd0b659a9d00ca27bbe7907d472758da15586c
   languageName: node
   linkType: hard
 
@@ -536,6 +537,17 @@ __metadata:
   version: 0.2.0
   resolution: "@sigstore/protobuf-specs@npm:0.2.0"
   checksum: 77c7b16c384f249213ced779c9605aa382b85d97c4f87fb1d6e82c7cacc9493aa6ca412b0b6960a6496a47ad95188561787da263c27733a676bc80a3d79c261c
+  languageName: node
+  linkType: hard
+
+"@sigstore/sign@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@sigstore/sign@npm:1.0.0"
+  dependencies:
+    "@sigstore/bundle": "npm:^1.1.0"
+    "@sigstore/protobuf-specs": "npm:^0.2.0"
+    make-fetch-happen: "npm:^11.0.1"
+  checksum: 579b4ba31acd662fc9053e6c1e49fda320fa7faf95233d9f7daa87cf198f6f785658fed2791d18d340176f55da300c178c00fcb4871a7d8582df446a09ac6287
   languageName: node
   linkType: hard
 
@@ -969,7 +981,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^2.0.0, chalk@npm:^2.3.2":
+"chalk@npm:^2.3.2, chalk@npm:^2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
   dependencies:
@@ -2333,15 +2345,15 @@ __metadata:
   linkType: hard
 
 "jackspeak@npm:^2.0.3":
-  version: 2.2.2
-  resolution: "jackspeak@npm:2.2.2"
+  version: 2.2.3
+  resolution: "jackspeak@npm:2.2.3"
   dependencies:
     "@isaacs/cliui": "npm:^8.0.2"
     "@pkgjs/parseargs": "npm:^0.11.0"
   dependenciesMeta:
     "@pkgjs/parseargs":
       optional: true
-  checksum: 70b286206a2729f6a2ba8470f68d4d130f7154f6a767fccabf107b9f6b3871395e89018437c2676c849450b258711cb557a4be6d7b2f889f1fa4d8b364533225
+  checksum: 4e1ac5cff07302dd8452006cebff5b753b347faedf2b96ef82a13ebde8c9e6f3685630733e36ab5baaff34829dbc3b2b9454b1496b2970912151869929bcabd5
   languageName: node
   linkType: hard
 
@@ -2771,9 +2783,9 @@ __metadata:
   linkType: hard
 
 "lru-cache@npm:^9.1.1 || ^10.0.0":
-  version: 10.0.0
-  resolution: "lru-cache@npm:10.0.0"
-  checksum: 347b7b391091e9f91182b6f683ce04329932a542376a2d7d300637213b99f06c222a3bb0f0db59adf246dac6cef1bb509cab352451a96621d07c41b10a20495f
+  version: 10.0.1
+  resolution: "lru-cache@npm:10.0.1"
+  checksum: 982dabfb227b9a2daf56d712ae0e72e01115a28c0a2068cd71277bca04568f3417bbf741c6c7941abc5c620fd8059e34f15607f90ebccbfa0a17533322d27a8e
   languageName: node
   linkType: hard
 
@@ -3026,9 +3038,9 @@ __metadata:
   linkType: hard
 
 "minipass@npm:^5.0.0 || ^6.0.2 || ^7.0.0":
-  version: 7.0.2
-  resolution: "minipass@npm:7.0.2"
-  checksum: 5e800acfc9dc75eacac5c4969ab50210463a8afbe8b487de1ae681106e17eb93772513854b6a38462b200b5758af95eeeb481945e050ce76f575ff1150fff4b4
+  version: 7.0.3
+  resolution: "minipass@npm:7.0.3"
+  checksum: c85426bce6310368218aad1f20b8f242180b6c2058209c78840959d6fff8a4738076a3224c3a6b651080f95684d559be1bdb084939bc40011c653ec4552cf06e
   languageName: node
   linkType: hard
 
@@ -4308,16 +4320,17 @@ __metadata:
   linkType: hard
 
 "sigstore@npm:^1.3.0, sigstore@npm:^1.4.0, sigstore@npm:^1.7.0":
-  version: 1.8.0
-  resolution: "sigstore@npm:1.8.0"
+  version: 1.9.0
+  resolution: "sigstore@npm:1.9.0"
   dependencies:
-    "@sigstore/bundle": "npm:^1.0.0"
+    "@sigstore/bundle": "npm:^1.1.0"
     "@sigstore/protobuf-specs": "npm:^0.2.0"
+    "@sigstore/sign": "npm:^1.0.0"
     "@sigstore/tuf": "npm:^1.0.3"
     make-fetch-happen: "npm:^11.0.1"
   bin:
     sigstore: bin/sigstore.js
-  checksum: 0a01bc0a93cb737794f933387ee182fea1ae087c0588d47b02bef9a06784790b356778b1849b076758dee44e68ddf19aaefc8cea856e649d0aea1a18f5691ab7
+  checksum: 64091a95f7a2073ab833bc172aadae0768b84c513a4e3dd3c6f55a1120ea774c293521b7eb6de510dd00562b4351acc2b9295b604c725a9c524fe4f81e4e8203
   languageName: node
   linkType: hard
 
