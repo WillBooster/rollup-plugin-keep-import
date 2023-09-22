@@ -847,7 +847,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aggregate-error@npm:^4.0.0, aggregate-error@npm:^4.0.1":
+"aggregate-error@npm:^4.0.0":
   version: 4.0.1
   resolution: "aggregate-error@npm:4.0.1"
   dependencies:
@@ -4494,15 +4494,15 @@ __metadata:
     lint-staged: "npm:14.0.1"
     pinst: "npm:3.0.0"
     prettier: "npm:3.0.3"
-    rollup: "npm:3.29.1"
-    semantic-release: "npm:21.1.1"
+    rollup: "npm:3.29.2"
+    semantic-release: "npm:21.1.2"
     sort-package-json: "npm:2.5.1"
   languageName: unknown
   linkType: soft
 
-"rollup@npm:3.29.1":
-  version: 3.29.1
-  resolution: "rollup@npm:3.29.1"
+"rollup@npm:3.29.2":
+  version: 3.29.2
+  resolution: "rollup@npm:3.29.2"
   dependencies:
     fsevents: "npm:~2.3.2"
   dependenciesMeta:
@@ -4510,7 +4510,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 9a04803aa55b844d95458b48734ec4b7716e3cefdb2c08a4ccd71f55b83a9afb970e3c667d114fef08ae640e67f8d1928cf668ba8c30fe3df77a810d50e1b077
+  checksum: efb166531cd12a830a538d4c40b723d04e139905008a205ed0aba176cd3337e3d33077c668ba383a2cca66a27197c4272845fe7a7d4c3fbab0c01d7bc34d194b
   languageName: node
   linkType: hard
 
@@ -4544,16 +4544,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:21.1.1":
-  version: 21.1.1
-  resolution: "semantic-release@npm:21.1.1"
+"semantic-release@npm:21.1.2":
+  version: 21.1.2
+  resolution: "semantic-release@npm:21.1.2"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^10.0.0"
     "@semantic-release/error": "npm:^4.0.0"
     "@semantic-release/github": "npm:^9.0.0"
     "@semantic-release/npm": "npm:^10.0.2"
     "@semantic-release/release-notes-generator": "npm:^11.0.0"
-    aggregate-error: "npm:^4.0.1"
+    aggregate-error: "npm:^5.0.0"
     cosmiconfig: "npm:^8.0.0"
     debug: "npm:^4.0.0"
     env-ci: "npm:^9.0.0"
@@ -4578,7 +4578,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 3d1210f4bece1bb354f20a4c6552a953b1dc9f4c0718e5f87b301ffb9917a790dc72ed32d8bd23dbcebe4542a3b5fcec936bd834a92ad90e00ee13bc36c345e2
+  checksum: 42ce478971a0c6a0ef1c5c5a08599879aeaecef0f175506c8e24178eb1cafea7127b7510214aa3e84640e4a1e3e36c4722ae391fa2182398d6902d3f61085509
   languageName: node
   linkType: hard
 
