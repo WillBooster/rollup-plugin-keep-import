@@ -34,7 +34,7 @@
     "pinst": "3.0.0",
     "prettier": "3.0.3",
     "rollup": "3.29.4",
-    "semantic-release": "22.0.6",
+    "semantic-release": "22.0.7",
     "sort-package-json": "2.6.0"
   },
   "packageManager": "yarn@4.0.1",
