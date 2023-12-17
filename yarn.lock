@@ -2605,18 +2605,18 @@ __metadata:
   linkType: hard
 
 "marked-terminal@npm:^6.0.0":
-  version: 6.1.0
-  resolution: "marked-terminal@npm:6.1.0"
+  version: 6.2.0
+  resolution: "marked-terminal@npm:6.2.0"
   dependencies:
     ansi-escapes: "npm:^6.2.0"
     cardinal: "npm:^2.1.1"
     chalk: "npm:^5.3.0"
     cli-table3: "npm:^0.6.3"
-    node-emoji: "npm:^2.1.0"
+    node-emoji: "npm:^2.1.3"
     supports-hyperlinks: "npm:^3.0.0"
   peerDependencies:
-    marked: ">=1 <11"
-  checksum: 5e765cfe3cc79f65193ea75b7143764f656300284de0b9e22c820ec51a1ec19edc1776625da57a7e5113d9c54ebb2b4650deeac12b8ff0c3a003271d8d362485
+    marked: ">=1 <12"
+  checksum: 72d4093cbb1ee864ced1f88fdb6fb8dbfea56d6aa3d8a1ec401ac51866ff3c32382c3f4642b19f2d808c798efde23b10300b99e3b6475b3f79e41e7741581d54
   languageName: node
   linkType: hard
 
@@ -2661,11 +2661,11 @@ __metadata:
   linkType: hard
 
 "mime@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "mime@npm:4.0.0"
+  version: 4.0.1
+  resolution: "mime@npm:4.0.1"
   bin:
     mime: bin/cli.js
-  checksum: b017aab1d1b84950422a5cf78c5f246c44faabf99ba113b51fb43ae032d4d1ddb70f0ca1f0a1aa7406330fe84169b2d5436cd189aba31f3116fa0615b324b7e5
+  checksum: 8b89fb8d93dca1ce068d072c09faa8e04e85fb1e763197cbf8adaba0aa05eb795197cca332309f724cc2239d99c9c127eccb777d97efddb11aa9e9bcb9538818
   languageName: node
   linkType: hard
 
@@ -2844,7 +2844,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-emoji@npm:^2.1.0":
+"node-emoji@npm:^2.1.3":
   version: 2.1.3
   resolution: "node-emoji@npm:2.1.3"
   dependencies:
