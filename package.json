@@ -30,14 +30,14 @@
     "@willbooster/prettier-config": "9.1.2",
     "conventional-changelog-conventionalcommits": "7.0.2",
     "husky": "9.0.7",
-    "lint-staged": "15.2.0",
+    "lint-staged": "15.2.1",
     "pinst": "3.0.0",
     "prettier": "3.2.4",
     "rollup": "3.29.4",
     "semantic-release": "23.0.0",
     "sort-package-json": "2.7.0"
   },
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "yarn@4.1.0",
   "publishConfig": {
     "access": "public"
   }
