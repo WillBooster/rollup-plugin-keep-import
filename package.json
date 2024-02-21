@@ -35,7 +35,7 @@
     "prettier": "3.2.5",
     "rollup": "3.29.4",
     "semantic-release": "23.0.2",
-    "sort-package-json": "2.7.0"
+    "sort-package-json": "2.8.0"
   },
   "packageManager": "yarn@4.1.0",
   "publishConfig": {
