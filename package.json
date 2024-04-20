@@ -20,9 +20,10 @@
   "scripts": {
     "cleanup": "yarn format",
     "format": "sort-package-json && yarn prettify",
-    "postinstall": "husky",
+    "postinstall": "husky || true",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
+    "prepare": "husky || true",
     "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\""
   },
   "prettier": "@willbooster/prettier-config",
