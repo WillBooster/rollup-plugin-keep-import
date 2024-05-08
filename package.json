@@ -38,7 +38,7 @@
     "semantic-release": "23.0.8",
     "sort-package-json": "2.10.0"
   },
-  "packageManager": "yarn@4.2.1",
+  "packageManager": "yarn@4.2.2",
   "publishConfig": {
     "access": "public"
   }
