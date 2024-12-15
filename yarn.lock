@@ -2911,14 +2911,14 @@ __metadata:
   linkType: hard
 
 "npm-package-arg@npm:^12.0.0":
-  version: 12.0.0
-  resolution: "npm-package-arg@npm:12.0.0"
+  version: 12.0.1
+  resolution: "npm-package-arg@npm:12.0.1"
   dependencies:
     hosted-git-info: "npm:^8.0.0"
     proc-log: "npm:^5.0.0"
     semver: "npm:^7.3.5"
     validate-npm-package-name: "npm:^6.0.0"
-  checksum: 10c0/a2e4e60b16b52715786ba854ef93c4f489b4379c54aa9179b6dac3f4e44fb6fad0a1d937e25cf04b3496bd61b90fc356b44ecd02ce98a6fe0f348e1563b7b00c
+  checksum: 10c0/e7cafb0952541858abe63dfa2fd7b45f1626e310c0b60d6266fafe20c1b5b76388913c3f39390820bee9eac035705639dc62adbcf14748536f867c4d06bbf209
   languageName: node
   linkType: hard
 
@@ -4354,9 +4354,9 @@ __metadata:
   linkType: hard
 
 "type-fest@npm:^4.6.0, type-fest@npm:^4.7.1":
-  version: 4.30.0
-  resolution: "type-fest@npm:4.30.0"
-  checksum: 10c0/9441fbbc971f92a53d7dfdb0db3f9c71a5a33ac3e021ca605cba8ad0b5c0a1e191cc778b4980c534b098ccb4e3322809100baf763be125510c993c9b8361f60e
+  version: 4.30.1
+  resolution: "type-fest@npm:4.30.1"
+  checksum: 10c0/7ee8084aa764c9703f92e4c3546e0943909a1b508c93a02f1e528b877803b4af2cd68982d1d36578738a14026d5f5a3049d840aa11fca1d690d13a1612222da1
   languageName: node
   linkType: hard
 
