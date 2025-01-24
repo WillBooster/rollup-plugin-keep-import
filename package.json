@@ -34,7 +34,7 @@
     "lint-staged": "15.4.2",
     "pinst": "3.0.0",
     "prettier": "3.4.2",
-    "rollup": "3.29.5",
+    "rollup": "4.32.0",
     "semantic-release": "23.1.1",
     "sort-package-json": "2.14.0"
   },
