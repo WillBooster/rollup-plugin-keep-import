@@ -39,7 +39,7 @@
     "semantic-release": "23.1.1",
     "sort-package-json": "3.2.1"
   },
-  "packageManager": "yarn@4.9.1",
+  "packageManager": "yarn@4.9.2",
   "publishConfig": {
     "access": "public"
   }
