@@ -661,12 +661,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/prettier-config@npm:10.0.0":
-  version: 10.0.0
-  resolution: "@willbooster/prettier-config@npm:10.0.0"
+"@willbooster/prettier-config@npm:10.0.1":
+  version: 10.0.1
+  resolution: "@willbooster/prettier-config@npm:10.0.1"
   peerDependencies:
-    prettier: ">=2"
-  checksum: 10c0/3895e78b9ba5eef3c1ac279ac1eec75abf7c40cc2877fe58fcee4841c9357f91dc4709bcaf71361cf29f7b0dd24b331b08add67f3a9ea1fa30232d3b6db13396
+    prettier: ">=3"
+  checksum: 10c0/9f0d64a94e3e3298a4cf4f71523283619a5d43b0e76b5dc4fdc21567376326462199097cf54837b36f07584940e62c236da1651f43eb6bdd107b41fa7c9aef3e
   languageName: node
   linkType: hard
 
@@ -3690,7 +3690,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "rollup-plugin-keep-import@workspace:."
   dependencies:
-    "@willbooster/prettier-config": "npm:10.0.0"
+    "@willbooster/prettier-config": "npm:10.0.1"
     conventional-changelog-conventionalcommits: "npm:9.0.0"
     husky: "npm:9.1.7"
     lint-staged: "npm:16.1.2"
