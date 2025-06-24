@@ -3698,7 +3698,7 @@ __metadata:
     prettier: "npm:3.6.0"
     rollup: "npm:3.29.5"
     semantic-release: "npm:23.1.1"
-    sort-package-json: "npm:3.2.2"
+    sort-package-json: "npm:3.3.0"
   languageName: unknown
   linkType: soft
 
@@ -3922,9 +3922,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:3.2.2":
-  version: 3.2.2
-  resolution: "sort-package-json@npm:3.2.2"
+"sort-package-json@npm:3.3.0":
+  version: 3.3.0
+  resolution: "sort-package-json@npm:3.3.0"
   dependencies:
     detect-indent: "npm:^7.0.1"
     detect-newline: "npm:^4.0.1"
@@ -3935,7 +3935,7 @@ __metadata:
     tinyglobby: "npm:^0.2.12"
   bin:
     sort-package-json: cli.js
-  checksum: 10c0/bd111e755715ae03572d88f7a6d06b0f2245f992e43746488f09ab253a728ffda7c6e463f34fa87a5afc50fbc8af0113a14880abed2876b6ce823235acbd554c
+  checksum: 10c0/5b1d5ffc42e7da5e330731ea3bea5c21904d757670498eeafd2df653454094a5a41361721fb7ace407244229fcabffc3375323542fe3e7903f0f67117258c2a3
   languageName: node
   linkType: hard
 
