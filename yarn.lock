@@ -703,13 +703,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/prettier-config@npm:10.1.3":
-  version: 10.1.3
-  resolution: "@willbooster/prettier-config@npm:10.1.3"
+"@willbooster/prettier-config@npm:10.2.0":
+  version: 10.2.0
+  resolution: "@willbooster/prettier-config@npm:10.2.0"
   peerDependencies:
     prettier: ">=3"
     prettier-plugin-java: ">=2.6"
-  checksum: 10c0/9b62d874d9eab320e643e5cb6e3fcbb35bba0dfe03e32baed9da79803f0a884fe06e35884538ea1b81b2429dbe70bd53343c7c753b5dc80a9c2e343397e5c704
+  checksum: 10c0/c9a4fd669df01373870471e7e2e1d9f67faeddd8edc68db02d7ae5e138baaf05497b736d4733dd8a2a6164c634416f60fecbf0685874311e026e75b97de3e4d3
   languageName: node
   linkType: hard
 
@@ -2220,14 +2220,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"java-parser@npm:2.3.4":
-  version: 2.3.4
-  resolution: "java-parser@npm:2.3.4"
+"java-parser@npm:3.0.1":
+  version: 3.0.1
+  resolution: "java-parser@npm:3.0.1"
   dependencies:
     chevrotain: "npm:11.0.3"
     chevrotain-allstar: "npm:0.3.1"
     lodash: "npm:4.17.21"
-  checksum: 10c0/0b0c2eacd7d962535c278f980b02fd0030b268d67d41f59a3967bd309ba469217d98774691acd1617102037b080149a800e2d697925a7e85295e02d434224be0
+  checksum: 10c0/9b60f1132b65785fe4f4c10785fc1638a4092aecf222f63706c119425d0ffb676b7229390abe289082cf837cd470df63f9b9383743d470816fa170240f8b1e22
   languageName: node
   linkType: hard
 
@@ -3493,15 +3493,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-java@npm:2.6.8":
-  version: 2.6.8
-  resolution: "prettier-plugin-java@npm:2.6.8"
+"prettier-plugin-java@npm:2.7.1":
+  version: 2.7.1
+  resolution: "prettier-plugin-java@npm:2.7.1"
   dependencies:
-    java-parser: "npm:2.3.4"
-    lodash: "npm:4.17.21"
+    java-parser: "npm:3.0.1"
   peerDependencies:
     prettier: ^3.0.0
-  checksum: 10c0/be34fe5a91b121c0e1c74d9be20e8d38a894bccebcf1ea4adffb02eea9e44307eaea505b63b51102fafd5d8ed8c415048862c1b2aa47a846d307ed2072c75dce
+  checksum: 10c0/e9554a4f7eaf2c3112e528924dc4537c427ae3afb812663fda58b69485a47e6fb5550799f8d081710e7c073050e5a902ae8807fb25569f7c2f2dbd4f37ff99f8
   languageName: node
   linkType: hard
 
@@ -3755,13 +3754,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "rollup-plugin-keep-import@workspace:."
   dependencies:
-    "@willbooster/prettier-config": "npm:10.1.3"
+    "@willbooster/prettier-config": "npm:10.2.0"
     conventional-changelog-conventionalcommits: "npm:9.0.0"
     husky: "npm:9.1.7"
     lint-staged: "npm:16.1.2"
     pinst: "npm:3.0.0"
     prettier: "npm:3.6.2"
-    prettier-plugin-java: "npm:2.6.8"
+    prettier-plugin-java: "npm:2.7.1"
     rollup: "npm:3.29.5"
     semantic-release: "npm:23.1.1"
     sort-package-json: "npm:3.3.1"
