@@ -1,4 +1,4 @@
-# Project Information
+## Project Information
 
 - Name: rollup-plugin-keep-import
 - Description: undefined
