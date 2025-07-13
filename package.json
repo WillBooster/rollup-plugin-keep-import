@@ -18,7 +18,7 @@
     "rollup-plugin-keep-import.d.ts"
   ],
   "scripts": {
-    "check-all-for-ai": "yarn check-for-ai && yarn test --silent",
+    "check-all-for-ai": "yarn check-for-ai && yarn test",
     "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet && yarn typecheck",
     "cleanup": "yarn format",
     "format": "sort-package-json && yarn prettify",
